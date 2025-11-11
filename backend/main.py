@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from backend.model import generate_sql
-from backend.db import init_db, execute_sql
+from model import generate_sql
+from db import init_db, execute_sql
 
 app = FastAPI(title="Natural Language → SQL Generator")
 
